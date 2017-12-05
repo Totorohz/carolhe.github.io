@@ -50,6 +50,10 @@ h1, h2, h3, h4 {
     border-bottom: 0.2rem solid #31cec4;
 }	
 
+.nav-item.active {
+    background-color: #31cec4;
+} 
+
 .navbar {
 	  padding: 0 150px !important;
     background-color: #fff;
