@@ -30,3 +30,13 @@ h3 {
 .name {
 	text-align: center;
 }
+
+.education {
+	margin-bottom: 50px;
+}
+
+@media screen and (max-width: 640px) {
+  main {
+      padding: 50px 50px 150px 50px;
+  }
+}  

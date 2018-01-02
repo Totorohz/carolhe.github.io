@@ -4,7 +4,7 @@ html, body {
 
 body{
     font-family: "adriane", Georgia, serif;
-    color: #292b2c !important;
+    color: #313131 !important;
 }
 
 .wrapper {
@@ -12,6 +12,12 @@ body{
     margin: 0 auto -90px;
     min-height: 100%;
 }
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 150px 150px;
+}    
 
 footer {
     height: 90px;
@@ -35,23 +41,20 @@ a {
 
 h1, h2, h3, h4 {
    margin-bottom: 30px !important;
+   /*font-family: 'Nunito', sans-serif;*/
 }
 
 .profession {
 	  font-size: 14px;
 }
 
-.nav-link:hover {
-	  color: #999 !important;
-}
-
 .nav-item:hover {
 	  padding-bottom: 0.8rem;
-    border-bottom: 0.2rem solid #31cec4;
+    border-bottom: 0.2rem solid #31cec4a3;
 }	
 
 .nav-item.active {
-    background-color: #31cec4;
+    background-color: #31cec4a3;
 } 
 
 .navbar {
@@ -79,12 +82,27 @@ h1, h2, h3, h4 {
 
 @media screen and (max-width: 992px) {
   .navbar {
-	    padding: 6px 16px !important;
+	    padding: 0px !important;
 	    background-color: #ddd;
+  }
+
+  .nav-item.active {
+      background-color: #b3b3b3;
+  }     
+
+  .nav-item:hover {
+      background-color: #b7b7b7;
+      padding-bottom: 1rem;
+      border-bottom: none;
+  } 
+
+  .navbar-nav li a {
+      margin: 0 16px;
   }
 
   .navbar-brand {
   	  font-size: 1rem;
+      margin-left: 1rem;
   }
 
   .profession {
