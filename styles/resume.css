@@ -1,0 +1,32 @@
+h1 {
+	font-size: 24px;
+}
+
+h2 {
+	font-size: 18px;
+	margin-bottom: 15px !important; 
+}
+
+h3 {
+	font-size: 14px;
+	display: inline;
+	text-decoration: underline;
+}
+
+#content {
+	font-size: 14px;
+	font-weight: 300;
+	text-align: justify;
+}
+
+#content .name, #content .skills, #content .experience {
+	margin-bottom: 15px;
+}
+
+#content div {
+	margin-bottom: 10px;
+}
+
+.name {
+	text-align: center;
+}
